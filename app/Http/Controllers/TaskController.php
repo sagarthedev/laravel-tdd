@@ -16,7 +16,7 @@ class TaskController extends Controller
      */
     public function index()
     {
-        $tasks = Task::latest()->get();
+        $tasks = Task::latest()->get();         
         return Inertia::render('Task/Index', ['tasks' => $tasks]);
     }
 
@@ -27,7 +27,7 @@ class TaskController extends Controller
      */
     public function create()
     {
-        return Inertia::render('Task/Create');
+        return      Inertia::render('Task/Create');
     }
 
     /**
