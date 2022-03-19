@@ -57,7 +57,7 @@
         },
         "hooks": {
             "pre-commit": [
-                   "./vendor/bin/php-cs-fixer fix",
+                   "./vendor/bin/php-cs-fixer fix"
               
             ]
         }
