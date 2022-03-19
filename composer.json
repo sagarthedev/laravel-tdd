@@ -54,6 +54,12 @@
     "extra": {
         "laravel": {
             "dont-discover": []
+        },
+        "hooks": {
+            "pre-commit": [
+                   "./vendor/bin/php-cs-fixer fix",
+              
+            ]
         }
     },
     "config": {
