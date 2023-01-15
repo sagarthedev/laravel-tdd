@@ -36,6 +36,6 @@
       },
     "dependencies": {
         "husky": "^8.0.0",
-        "lint-staged": "^12.3.7"
+        "lint-staged": "^13.0.0"
     }
 }
